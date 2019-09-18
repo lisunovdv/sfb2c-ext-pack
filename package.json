@@ -1,0 +1,52 @@
+{
+    "name": "sfb2c-ext-pack",
+    "displayName": "Valtech Salesforce B2C Commerce Extension Pack",
+    "description": "Extensions for work with SFB2C / Demandware, sandboxes, etc.",
+    "publisher": "valtech",
+    "author": {
+        "name": "Valtech LLC"
+    },
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lisunovdv/sfb2c-ext-pack.git"
+    },
+    "private": true,
+    "keywords":["salesforce", "e-commerce", "demandware", "SFB2C", "sandbox", "cartridge"],
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "sqrtt.prophet",
+        "pikamachu.require-cartridge-resolve",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "eamodio.gitlens",
+        "dbaeumer.vscode-eslint",
+        "shinnn.stylelint",
+        "mrmlnc.vscode-scss",
+        "zignd.html-css-class-completion",
+        "editorconfig.editorconfig",
+        "shardulm94.trailing-spaces",
+        "rafamel.subtle-brackets",
+        "coenraads.bracket-pair-colorizer",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense",
+        "swyphcosmo.spellchecker",
+        "visualstudioexptteam.vscodeintellicode"
+    ],
+    "galleryBanner": {
+        "color": "#00befa",
+        "theme": "dark"
+    },
+    "icon": "valtech_logo_black.png",
+    "scripts": {
+        "make:readme": "node .bin/makeReadme.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19.0"
+    }
+}
